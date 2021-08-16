@@ -227,7 +227,7 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
   .flex-container {
     background: lightgrey;
     width: 100%;
@@ -237,7 +237,7 @@ footer {
   
   .flex-item {
     border: 1px solid purple;
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
     /***Header***/
@@ -264,6 +264,13 @@ footer {
   }
 
   /***Main***/
+  .blog-posts .flex-item {
+    width: 45%;
+    display: inline-flex;
+  }
+  .blog-posts h2 {
+    margin: 0 20px;
+  }
 
   /***Aside***/
   aside h2 {
